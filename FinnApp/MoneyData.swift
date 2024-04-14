@@ -44,6 +44,7 @@ class MoneyCoreData {
             print(error.localizedDescription)
         }
         return []
+        
     }
     
     func createContext(name: String, spending: Double) {

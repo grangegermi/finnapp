@@ -55,12 +55,10 @@ class CustomTabBar: UITabBar {
         button.layer.cornerRadius = 25
 //        button.center.x = self.center.x
         button.setImage(UIImage(systemName:"plus"), for: .normal)
-        button.addTarget(self, action: #selector(actionButton), for: .touchUpInside)
+       
     }
     
-    @objc func actionButton(_sender:UIButton) {
-        print("hello")
-    }
+   
     
     override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
         button.frame.contains(point) ? button: super.hitTest(point, with: event)

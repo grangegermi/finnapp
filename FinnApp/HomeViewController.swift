@@ -23,9 +23,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         view.backgroundColor = .blue
         view.addSubview(topView)
         view.addSubview(collectionView)
+        
         collectionView.dataSource =  self
         collectionView.delegate = self
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: CollectionViewCell.id)
+        
         collectionView.register(HeaderCellCollectionViewCell.self, forSupplementaryViewOfKind: HeaderCellCollectionViewCell.kind, withReuseIdentifier: HeaderCellCollectionViewCell.id)
         
         topView.snp.makeConstraints { make in
@@ -121,12 +123,14 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        var cell = UICollectionViewCell()
+        var cell = CollectionViewCell()
         
         if indexPath.section == 0 {
             
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.id, for: indexPath) as! CollectionViewCell
+            
         }
+        
         return cell
     }
 }

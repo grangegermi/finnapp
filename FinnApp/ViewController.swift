@@ -27,8 +27,10 @@ class ViewController: UITabBarController {
         settingsVC.tabBarItem.image = UIImage(systemName: "gearshape")
         reportVC.tabBarItem.image = UIImage(systemName: "list.bullet.rectangle.portrait")
         
+        customTabBar.button.addTarget(self, action: #selector(actionButton), for: .touchUpInside)
+        
         self.setViewControllers([homeVC, historyVC,settingsVC, reportVC], animated: false)
-//        
+        
        
 //        tabBar.itemPositioning = .centered
 //        tabBar.itemSpacing = UIScreen.main.bounds.width / 10
@@ -36,7 +38,13 @@ class ViewController: UITabBarController {
 //        tabBar.unselectedItemTintColor = UIColor.colorUnselectedItem
       
     }
-    
+    @objc func actionButton(_sender:UIButton) {
+         print("lee")
+        let vc = AddController()
+        vc.modalPresentationStyle = .pageSheet
+        present(vc, animated: true)
+
+    }
     
 }
 

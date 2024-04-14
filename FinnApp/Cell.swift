@@ -11,16 +11,17 @@ import SnapKit
 class Cell: UICollectionViewCell {
     
     static let id = "Cell"
-    var image = UIImageView()
+    
+    var imageOne = UIImageView()
     
     override init(frame:CGRect){
         super.init(frame: frame)
-        contentView.addSubview(image)
+        contentView.addSubview(imageOne)
         addImageConstraints()
         
     }
     func addImageConstraints() {
-        image.snp.makeConstraints { make in
+        imageOne.snp.makeConstraints { make in
             make.top.equalTo(contentView.snp.top)
             make.left.equalTo(contentView.snp.left)
             make.bottom.equalTo(contentView.snp.bottom)
