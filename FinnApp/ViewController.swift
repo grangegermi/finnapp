@@ -10,6 +10,8 @@ import SnapKit
 
 class ViewController: UITabBarController {
     
+    
+    
     let  homeVC = UINavigationController(rootViewController: HomeViewController())
     let  historyVC = UINavigationController(rootViewController: HistoryController())
     let  settingsVC = UINavigationController(rootViewController: SettingsController())
@@ -31,6 +33,8 @@ class ViewController: UITabBarController {
         
         self.setViewControllers([homeVC, historyVC,settingsVC, reportVC], animated: false)
         
+        
+       
        
 //        tabBar.itemPositioning = .centered
 //        tabBar.itemSpacing = UIScreen.main.bounds.width / 10
@@ -38,11 +42,37 @@ class ViewController: UITabBarController {
 //        tabBar.unselectedItemTintColor = UIColor.colorUnselectedItem
       
     }
+    
+    
+//    func reloud() {
+//        let vcHome = HomeViewController()
+//        DispatchQueue.main.async {
+//            vcHome.collectionView.reloadData()
+//            MoneyCoreData.shared.fetchSpanding()
+//        }
+//       
+//    }
+    
     @objc func actionButton(_sender:UIButton) {
-         print("lee")
         let vc = AddController()
-        vc.modalPresentationStyle = .pageSheet
+        if let sheet = vc.sheetPresentationController{
+            sheet.detents = [.large()]
+            
+        } 
+//        self.navigationController?.pushViewController(vc, animated: true)
         present(vc, animated: true)
+//        vc.modalPresentationStyle = .pageSheet
+//        self.navigationController?.modalPresentationStyle = .pageSheet
+//        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = AddController()
+        
+//        vc.delegate = self
+        
+        
+        
+//        
+      
+      
 
     }
     

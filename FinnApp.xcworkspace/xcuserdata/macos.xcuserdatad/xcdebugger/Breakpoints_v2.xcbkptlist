@@ -7,16 +7,2456 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "90BB5C2D-78C6-4D79-9178-0C10308F1B42"
+            uuid = "1B301123-427F-41D4-BE5C-7EE1DA401011"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/MoneyData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "createImage(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97B59C1C-31D5-4EE3-A3AC-091F5DD7CEC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/MoneyData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "createImage(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97B59C1C-31D5-4EE3-A3AC-091F5DD7CEC7 - 4ed5126ca6dcd114"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.MoneyCoreData.createImage(image: Swift.String) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/MoneyData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "674">
+               </Location>
+               <Location
+                  uuid = "97B59C1C-31D5-4EE3-A3AC-091F5DD7CEC7 - 4ed5126ca6dcd114"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.MoneyCoreData.createImage(image: Swift.String) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/MoneyData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "646">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58AE9FAD-AB7F-4366-8165-4D6547A41082"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/MoneyData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "createImage(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1083741-3849-4FBB-AD28-4D4CB64C8304"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1083741-3849-4FBB-AD28-4D4CB64C8304 - d5ac43b1d03b66e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewDidLoad() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1887">
+               </Location>
+               <Location
+                  uuid = "C1083741-3849-4FBB-AD28-4D4CB64C8304 - d5ac43b1d03b6682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewDidLoad() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1887">
+               </Location>
+               <Location
+                  uuid = "C1083741-3849-4FBB-AD28-4D4CB64C8304 - d5ac43b1d03b6682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewDidLoad() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1952">
+               </Location>
+               <Location
+                  uuid = "C1083741-3849-4FBB-AD28-4D4CB64C8304 - d5ac43b1d03b66a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewDidLoad() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1838">
+               </Location>
+               <Location
+                  uuid = "C1083741-3849-4FBB-AD28-4D4CB64C8304 - d5ac43b1d03b66e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewDidLoad() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1952">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA59EC31-CF3F-40FD-8E18-3E2D622E4DFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/ModelApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "addArray()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA59EC31-CF3F-40FD-8E18-3E2D622E4DFD - 9cb2fea7dc12ce95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.Model.addArray() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/ModelApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "DA59EC31-CF3F-40FD-8E18-3E2D622E4DFD - 9cb2fea7dc12ce95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.Model.addArray() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/ModelApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405C0768-5608-4C53-9AC3-9434EF0B1B91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2548071-0D69-412D-A0F0-E0F59B4D7420"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "goToScreen()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2548071-0D69-412D-A0F0-E0F59B4D7420 - d5ac43b1d03b7a81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewDidLoad() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "4131">
+               </Location>
+               <Location
+                  uuid = "F2548071-0D69-412D-A0F0-E0F59B4D7420 - 1d2f3acace423017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.goToScreen() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4187D2A3-0D53-4D2D-B085-9E0C9E70A699"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF5FBAA2-7B9F-48F6-B625-149FC3A5832D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5CC7429-CD33-43CE-AAD6-1CF4DA2E2D43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3390CF5-D0CA-422B-865B-276F0AAB6804"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D3390CF5-D0CA-422B-865B-276F0AAB6804 - 59ad578ee6c60156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.ViewController.actionButton(_sender: __C.UIButton) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "D3390CF5-D0CA-422B-865B-276F0AAB6804 - c82ae4ff0a866b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.ViewController.reloud() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "395">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0827BCB4-7A0D-4507-B411-9042326715B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/SpendView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "save()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0827BCB4-7A0D-4507-B411-9042326715B7 - dadb175e002ee8d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.SpendView.save() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/SpendView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "1800">
+               </Location>
+               <Location
+                  uuid = "0827BCB4-7A0D-4507-B411-9042326715B7 - dadb175e002ee88a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.SpendView.save() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/SpendView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1854">
+               </Location>
+               <Location
+                  uuid = "0827BCB4-7A0D-4507-B411-9042326715B7 - dadb175e002ee8f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.SpendView.save() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/SpendView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "1800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74DBF445-25C2-4D35-AA40-CACAFDF0BA70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "AddController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "74DBF445-25C2-4D35-AA40-CACAFDF0BA70 - 895c1cb35f341f05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.done() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "74DBF445-25C2-4D35-AA40-CACAFDF0BA70 - 895c1cb35f341f05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.done() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25B7E466-FADF-4A21-8785-99AE2914B387"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "AddController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "25B7E466-FADF-4A21-8785-99AE2914B387 - 895c1cb35f341f05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.done() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "25B7E466-FADF-4A21-8785-99AE2914B387 - 895c1cb35f341f05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.done() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEE45198-43C3-45B7-B509-652B797FD5FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60ABE2A2-89BD-45C6-B149-CA535239A20A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "790A6346-39AC-4AA2-A5F1-4E8211CC30CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85C3F503-AADD-4F2D-9CED-2E3D6C0CA8E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A832405A-4C67-46CC-85E0-2CBDCE378FB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1057F29A-EF5C-4E4E-9B68-5D709E97019E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72948186-E605-4528-8A3E-6E5C9276238F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51A60305-661A-4CE7-A527-8BE46D5D9BA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D5FCB49-FC05-429A-A296-BACE38A9D203"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A014FD8-6D36-4F36-9121-6691B98EB819"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72094E4A-682B-4305-B1D2-97EF1E6A4B38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B952766-7D07-40DC-A8F1-FAE59C78CC41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F763F968-2AB0-4B03-9C2D-3DBC1CD70540"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "AddController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F763F968-2AB0-4B03-9C2D-3DBC1CD70540 - 1614977b09712139"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "F763F968-2AB0-4B03-9C2D-3DBC1CD70540 - 1614977b09712139"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "635CCF18-8C7F-4070-9E8E-FD06C3E3DFB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1D12234-DE60-48C5-BC85-51851034573F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E1D12234-DE60-48C5-BC85-51851034573F - 640681609ef823ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.reloudCollection(controller: __C.UIViewController) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "E1D12234-DE60-48C5-BC85-51851034573F - 640681609ef823ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.reloudCollection(controller: __C.UIViewController) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "178">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BF115A1-C527-4233-8865-ED6013BAD541"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5BF115A1-C527-4233-8865-ED6013BAD541 - 640681609ef823a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.reloudCollection(controller: __C.UIViewController) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  uuid = "5BF115A1-C527-4233-8865-ED6013BAD541 - 640681609ef823a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.reloudCollection(controller: __C.UIViewController) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1ADDA5A7-F37F-45E3-AA76-588B13FC08E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5346580-0963-48C8-B06C-3EB18D3E3D53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "260C9A39-D44A-489D-8C8C-0302C95E7C1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "AddController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B708CF30-A8BF-4909-AED8-285CC8B7AF01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B708CF30-A8BF-4909-AED8-285CC8B7AF01 - b66348eab8d7f87a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.dismiss(animated: Swift.Bool, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "B708CF30-A8BF-4909-AED8-285CC8B7AF01 - 1614977b0971197d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "B708CF30-A8BF-4909-AED8-285CC8B7AF01 - 1614977b0971197d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B571B69-2220-4554-850C-B49BD73FEE87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B571B69-2220-4554-850C-B49BD73FEE87 - b66348eab8d7f87a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.dismiss(animated: Swift.Bool, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "8B571B69-2220-4554-850C-B49BD73FEE87 - 1614977b0971197d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "8B571B69-2220-4554-850C-B49BD73FEE87 - 1614977b0971197d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD5382A7-E359-4C91-89B6-B43FC0A116C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD5382A7-E359-4C91-89B6-B43FC0A116C1 - b66348eab8d7f81b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.dismiss(animated: Swift.Bool, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "FD5382A7-E359-4C91-89B6-B43FC0A116C1 - 1614977b0971193f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "FD5382A7-E359-4C91-89B6-B43FC0A116C1 - 1614977b0971193f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.AddController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/AddController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "161">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F02C680D-4035-4E7D-BA38-FC838A66BB59"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B810555-7EE6-4DA1-A481-FFC8290DC7AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B20B9D38-C7E3-4BDB-A06A-12CBCBE59DDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B20B9D38-C7E3-4BDB-A06A-12CBCBE59DDA - 640681609ef85c91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.reloudCollection(controller: __C.UIViewController) -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "B20B9D38-C7E3-4BDB-A06A-12CBCBE59DDA - a76a5ddf4f271762"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AF4B931-96F1-48B4-AA82-21DEB8689B8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AF4B931-96F1-48B4-AA82-21DEB8689B8D - 2514be8ab7564906"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.presentModal() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "5AF4B931-96F1-48B4-AA82-21DEB8689B8D - a76a5ddf4f271703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16AA2572-9633-4DA8-B50F-4D7741DCBC5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "gotSum()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEA7B0E0-2D23-4502-A162-9A5948D7552C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/IncomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "saveIncome()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB4B1B56-6E54-4125-B8D7-8F5926E56688"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB4B1B56-6E54-4125-B8D7-8F5926E56688 - a76a5ddf4f276ab1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "DB4B1B56-6E54-4125-B8D7-8F5926E56688 - a76a5ddf4f27152c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "DB4B1B56-6E54-4125-B8D7-8F5926E56688 - a76a5ddf4f276a35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "DB4B1B56-6E54-4125-B8D7-8F5926E56688 - a76a5ddf4f276a35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F6A9596-4F7D-4B5B-93B5-7446E121FA58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A57009B4-317E-44EF-A549-87FBB2130E89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A57009B4-317E-44EF-A549-87FBB2130E89 - a76a5ddf4f276a14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "A57009B4-317E-44EF-A549-87FBB2130E89 - a76a5ddf4f276a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA96B491-738C-45D1-9C9D-5FE153C798C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "getsumIncome()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA96B491-738C-45D1-9C9D-5FE153C798C7 - 8696a79917a3004f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.getsumIncome() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "329">
+               </Location>
+               <Location
+                  uuid = "AA96B491-738C-45D1-9C9D-5FE153C798C7 - 8696a79917a30010"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.getsumIncome() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "339">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7776FAD6-2949-4D15-9CC5-C6E141DBDE1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "getsumIncome()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A92E2BFD-037E-4D44-A78E-E50128101381"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "getsumIncome()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A05DF06B-4E49-4E7D-A98B-4E944BC57693"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D79C0B0-BCEB-4345-9C45-BF4735512C3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10091EBB-FB55-4809-B722-A9EE5EEDCFBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/AddController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EECCDE6-5E64-4A7D-BDFE-B317B415C4C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EECCDE6-5E64-4A7D-BDFE-B317B415C4C9 - 89dad65cb6ac1ee8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "2218">
+               </Location>
+               <Location
+                  uuid = "4EECCDE6-5E64-4A7D-BDFE-B317B415C4C9 - 89dad65cb6ac1eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2207">
+               </Location>
+               <Location
+                  uuid = "4EECCDE6-5E64-4A7D-BDFE-B317B415C4C9 - 89dad65cb6ac1eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2150">
+               </Location>
+               <Location
+                  uuid = "4EECCDE6-5E64-4A7D-BDFE-B317B415C4C9 - 89dad65cb6ac1e89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79450E2B-923B-421D-8AC7-C2E5EC3F5922"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79450E2B-923B-421D-8AC7-C2E5EC3F5922 - a79a0808b44d4b1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "79450E2B-923B-421D-8AC7-C2E5EC3F5922 - a79a0808b44d4b1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  uuid = "79450E2B-923B-421D-8AC7-C2E5EC3F5922 - a79a0808b44d4b1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "79450E2B-923B-421D-8AC7-C2E5EC3F5922 - a79a0808b44d4b1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  uuid = "79450E2B-923B-421D-8AC7-C2E5EC3F5922 - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "452AE661-E9B7-40F6-B55E-8090B7F4DDDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "452AE661-E9B7-40F6-B55E-8090B7F4DDDD - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "452AE661-E9B7-40F6-B55E-8090B7F4DDDD - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  uuid = "452AE661-E9B7-40F6-B55E-8090B7F4DDDD - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "452AE661-E9B7-40F6-B55E-8090B7F4DDDD - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "235">
+               </Location>
+               <Location
+                  uuid = "452AE661-E9B7-40F6-B55E-8090B7F4DDDD - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92665D43-39FB-4E76-B0BD-A2360B343966"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41F68048-D270-4C2A-B7A9-B09033D09DE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "41F68048-D270-4C2A-B7A9-B09033D09DE5 - a79a0808b44d4b7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  uuid = "41F68048-D270-4C2A-B7A9-B09033D09DE5 - a79a0808b44d4b7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "41F68048-D270-4C2A-B7A9-B09033D09DE5 - a79a0808b44d4b7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "41F68048-D270-4C2A-B7A9-B09033D09DE5 - a79a0808b44d4b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88503F14-5840-4148-BE01-882CA066F511"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAA34FF1-F0BC-4832-B955-0F50BD1D6CA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BAA34FF1-F0BC-4832-B955-0F50BD1D6CA4 - a79a0808b44d4af2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "179">
+               </Location>
+               <Location
+                  uuid = "BAA34FF1-F0BC-4832-B955-0F50BD1D6CA4 - a79a0808b44d4ad1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "BAA34FF1-F0BC-4832-B955-0F50BD1D6CA4 - a79a0808b44d4ad1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "250">
+               </Location>
+               <Location
+                  uuid = "BAA34FF1-F0BC-4832-B955-0F50BD1D6CA4 - a79a0808b44d4ad1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D254D4A-752F-4CE2-AEF6-0D64FF755276"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEE4DFB3-29DF-44E2-8621-A08E415EC38A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FEE4DFB3-29DF-44E2-8621-A08E415EC38A - a76a5ddf4f276a35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "FEE4DFB3-29DF-44E2-8621-A08E415EC38A - a76a5ddf4f276b3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "213">
+               </Location>
+               <Location
+                  uuid = "FEE4DFB3-29DF-44E2-8621-A08E415EC38A - a76a5ddf4f276a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "FEE4DFB3-29DF-44E2-8621-A08E415EC38A - a76a5ddf4f276a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "230">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55C387C9-9F5D-4455-A710-DD4086FBEE1C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FinnApp/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "565AEE43-3252-49D5-9431-4E6E6C481AFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "565AEE43-3252-49D5-9431-4E6E6C481AFC - 89dad65cb6ac1ee8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "2257">
+               </Location>
+               <Location
+                  uuid = "565AEE43-3252-49D5-9431-4E6E6C481AFC - 89dad65cb6ac1ed7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2257">
+               </Location>
+               <Location
+                  uuid = "565AEE43-3252-49D5-9431-4E6E6C481AFC - 89dad65cb6ac1e89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.init(frame: __C.CGRect) -&gt; FinnApp.TopView"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2185">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04C7FC08-5448-4C3B-853E-773B3D24647D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04C7FC08-5448-4C3B-853E-773B3D24647D - a76a5ddf4f276b3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "274">
+               </Location>
+               <Location
+                  uuid = "04C7FC08-5448-4C3B-853E-773B3D24647D - a76a5ddf4f276b3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "213">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0B26152-4ED5-483F-B595-DB8180266629"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D0B26152-4ED5-483F-B595-DB8180266629 - a76a5ddf4f276b63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "D0B26152-4ED5-483F-B595-DB8180266629 - a76a5ddf4f276b1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "274">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22B50228-AE68-4873-8A6D-57DC1F28B4B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "popoverDismissed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "22B50228-AE68-4873-8A6D-57DC1F28B4B8 - a76a5ddf4f276b63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "275">
+               </Location>
+               <Location
+                  uuid = "22B50228-AE68-4873-8A6D-57DC1F28B4B8 - a76a5ddf4f276bb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.HomeViewController.popoverDismissed() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "333">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18C0AFA3-28E4-4CA2-BB7A-8CFB2E941EBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "createText()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18C0AFA3-28E4-4CA2-BB7A-8CFB2E941EBD - 410951630069c679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.createText() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "857">
+               </Location>
+               <Location
+                  uuid = "18C0AFA3-28E4-4CA2-BB7A-8CFB2E941EBD - 410951630069c69e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.createText() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CB62F6C-2C4C-43C5-A9C4-7609DC00A5E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "createText()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A138BF6-9EE9-4772-81C3-18968B65A01C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "gotSum()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A138BF6-9EE9-4772-81C3-18968B65A01C - a224690443f7b4a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.gotSum() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "383">
+               </Location>
+               <Location
+                  uuid = "0A138BF6-9EE9-4772-81C3-18968B65A01C - a224690443f7b4a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnApp.TopView.gotSum() -&gt; ()"
+                  moduleName = "FinnApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Documents/finnapp/FinnApp/TopView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "233">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5379123C-C855-41E0-9AC1-E1AF9DFC6C06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnApp/TopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "createText()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

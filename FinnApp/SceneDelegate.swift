@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let viewController = ViewController()
         let navViewController = UINavigationController(rootViewController: viewController)
         window?.rootViewController = navViewController
-        navViewController.modalPresentationStyle = .pageSheet
+//        navViewController.modalPresentationStyle = .pageSheet
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

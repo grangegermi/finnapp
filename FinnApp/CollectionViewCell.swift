@@ -25,6 +25,7 @@ class CollectionViewCell: UICollectionViewCell {
         createConstraints()
         addImage()
         
+        image.contentMode = .scaleAspectFit
     }
     
     required init?(coder: NSCoder) {
@@ -32,13 +33,10 @@ class CollectionViewCell: UICollectionViewCell {
     }
     
     func addImage(){
-        
-        image.image = UIImage(systemName: "house.fill")
-        textTotal.text = "-200"
-        textName.text = "Home"
         view.backgroundColor = .orange
         view.layer.cornerRadius = 10 
     }
+    
     func createConstraints(){
         
         view.snp.makeConstraints { make in
@@ -61,6 +59,9 @@ class CollectionViewCell: UICollectionViewCell {
         image.snp.makeConstraints { make in
             make.top.equalTo(view.snp.top).inset(20)
             make.right.equalTo(view.snp.right).inset(10)
+            make.height.equalTo(40)
+            make.width.equalTo(40)
+            
         }
     }
 }

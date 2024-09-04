@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223503172BEE0FCF009A2755 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223503162BEE0FCF009A2755 /* Base.swift */; };
+		225014A22BF15F7B007BD4A1 /* FinnModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 225014A02BF15F7B007BD4A1 /* FinnModel.xcdatamodeld */; };
+		225014A42BF24857007BD4A1 /* ModelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225014A32BF24857007BD4A1 /* ModelApp.swift */; };
+		225014A62BF8B77C007BD4A1 /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225014A52BF8B77C007BD4A1 /* IncomeView.swift */; };
+		225014A82BF8B79C007BD4A1 /* SpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225014A72BF8B79C007BD4A1 /* SpendView.swift */; };
 		DB0FA5672BBF25F0009D5248 /* HeaderCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FA5662BBF25F0009D5248 /* HeaderCellCollectionViewCell.swift */; };
 		DB0FA5692BBF39CF009D5248 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FA5682BBF39CF009D5248 /* HistoryController.swift */; };
 		DB0FA56B2BBF39E5009D5248 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FA56A2BBF39E5009D5248 /* SettingsController.swift */; };
@@ -19,7 +24,6 @@
 		DB19A03E2B7BEBF6006B44B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19A03C2B7BEBF6006B44B9 /* LaunchScreen.storyboard */; };
 		DB524E692BB0931000AE49E3 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB524E682BB0931000AE49E3 /* TopView.swift */; };
 		DBB3EB332B8A55010020C59A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB3EB322B8A55010020C59A /* CollectionViewCell.swift */; };
-		DBB3EB372B8A64D60020C59A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBB3EB352B8A64D50020C59A /* Model.xcdatamodeld */; };
 		DBB3EB392B8A6E710020C59A /* MoneyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB3EB382B8A6E710020C59A /* MoneyData.swift */; };
 		DBB3EB3B2B8BBE720020C59A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB3EB3A2B8BBE720020C59A /* HomeViewController.swift */; };
 		DBBD8ADD2BC1E1ED00868858 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD8ADC2BC1E1ED00868858 /* ReportViewController.swift */; };
@@ -30,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223503162BEE0FCF009A2755 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		225014A12BF15F7B007BD4A1 /* FinnModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinnModel.xcdatamodel; sourceTree = "<group>"; };
+		225014A32BF24857007BD4A1 /* ModelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApp.swift; sourceTree = "<group>"; };
+		225014A52BF8B77C007BD4A1 /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+		225014A72BF8B79C007BD4A1 /* SpendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendView.swift; sourceTree = "<group>"; };
 		30178607B989B1E0F526C040 /* Pods-FinnApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinnApp.release.xcconfig"; path = "Target Support Files/Pods-FinnApp/Pods-FinnApp.release.xcconfig"; sourceTree = "<group>"; };
 		B710C8FCFFC1D4AA75D1FE20 /* Pods_FinnApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinnApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3802B23799F197596ABA611 /* Pods-FinnApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinnApp.debug.xcconfig"; path = "Target Support Files/Pods-FinnApp/Pods-FinnApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +56,6 @@
 		DB19A03F2B7BEBF6006B44B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB524E682BB0931000AE49E3 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		DBB3EB322B8A55010020C59A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		DBB3EB362B8A64D50020C59A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		DBB3EB382B8A6E710020C59A /* MoneyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyData.swift; sourceTree = "<group>"; };
 		DBB3EB3A2B8BBE720020C59A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DBBD8ADC2BC1E1ED00868858 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				DB19A0312B7BEBF2006B44B9 /* AppDelegate.swift */,
-				DBB3EB382B8A6E710020C59A /* MoneyData.swift */,
 				DB19A0332B7BEBF2006B44B9 /* SceneDelegate.swift */,
 				DB19A0352B7BEBF2006B44B9 /* ViewController.swift */,
 				DBB3EB3A2B8BBE720020C59A /* HomeViewController.swift */,
@@ -110,10 +117,15 @@
 				DB0FA5682BBF39CF009D5248 /* HistoryController.swift */,
 				DB0FA56A2BBF39E5009D5248 /* SettingsController.swift */,
 				DB0FA5662BBF25F0009D5248 /* HeaderCellCollectionViewCell.swift */,
+				225014A52BF8B77C007BD4A1 /* IncomeView.swift */,
+				225014A72BF8B79C007BD4A1 /* SpendView.swift */,
 				DB524E682BB0931000AE49E3 /* TopView.swift */,
 				DB0FA56D2BC1B656009D5248 /* Color.swift */,
 				DBB3EB322B8A55010020C59A /* CollectionViewCell.swift */,
-				DBB3EB352B8A64D50020C59A /* Model.xcdatamodeld */,
+				223503162BEE0FCF009A2755 /* Base.swift */,
+				225014A32BF24857007BD4A1 /* ModelApp.swift */,
+				DBB3EB382B8A6E710020C59A /* MoneyData.swift */,
+				225014A02BF15F7B007BD4A1 /* FinnModel.xcdatamodeld */,
 				DB19A0372B7BEBF2006B44B9 /* Main.storyboard */,
 				DB19A03A2B7BEBF6006B44B9 /* Assets.xcassets */,
 				DB19A03C2B7BEBF6006B44B9 /* LaunchScreen.storyboard */,
@@ -253,14 +265,18 @@
 				DBBD8B072BCC1C9B00868858 /* Cell.swift in Sources */,
 				DBB3EB392B8A6E710020C59A /* MoneyData.swift in Sources */,
 				DBBD8B052BCC09CD00868858 /* AddController.swift in Sources */,
+				223503172BEE0FCF009A2755 /* Base.swift in Sources */,
+				225014A42BF24857007BD4A1 /* ModelApp.swift in Sources */,
 				DB0FA5672BBF25F0009D5248 /* HeaderCellCollectionViewCell.swift in Sources */,
 				DB0FA56E2BC1B657009D5248 /* Color.swift in Sources */,
 				DB0FA56B2BBF39E5009D5248 /* SettingsController.swift in Sources */,
-				DBB3EB372B8A64D60020C59A /* Model.xcdatamodeld in Sources */,
 				DBB3EB332B8A55010020C59A /* CollectionViewCell.swift in Sources */,
 				DBB3EB3B2B8BBE720020C59A /* HomeViewController.swift in Sources */,
+				225014A82BF8B79C007BD4A1 /* SpendView.swift in Sources */,
 				DB524E692BB0931000AE49E3 /* TopView.swift in Sources */,
+				225014A22BF15F7B007BD4A1 /* FinnModel.xcdatamodeld in Sources */,
 				DB19A0342B7BEBF2006B44B9 /* SceneDelegate.swift in Sources */,
+				225014A62BF8B77C007BD4A1 /* IncomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,13 +503,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DBB3EB352B8A64D50020C59A /* Model.xcdatamodeld */ = {
+		225014A02BF15F7B007BD4A1 /* FinnModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DBB3EB362B8A64D50020C59A /* Model.xcdatamodel */,
+				225014A12BF15F7B007BD4A1 /* FinnModel.xcdatamodel */,
 			);
-			currentVersion = DBB3EB362B8A64D50020C59A /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
+			currentVersion = 225014A12BF15F7B007BD4A1 /* FinnModel.xcdatamodel */;
+			path = FinnModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

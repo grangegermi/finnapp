@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import CoreData
 
-class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, ModalTransitionListener, TopViewDelegate {
     
-    var topView:TopView = TopView()
     
+    
+//    var contr :AddController?
+    var topView:TopView = TopView(frame: CGRect(origin: .zero, size: .zero))
     lazy var collectionView: UICollectionView = UICollectionView(
         frame: .zero,
         collectionViewLayout: UICollectionViewCompositionalLayout { sectionIndex, _ -> NSCollectionLayoutSection? in
@@ -18,14 +21,29 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         }
     )
     
+    var model = MoneyCoreData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        MoneyCoreData.shared.fetchSpanding()
+        ModalTransitionMediator.instance.setListener(listener: self)
+        popoverDismissed()
+        
+//        collectionView.reloadData()
+        self.model.controller = self
+       print(MoneyCoreData.shared.logpath())
+//        MoneyCoreData.shared.deleteContext()
+        
         view.backgroundColor = .blue
         view.addSubview(topView)
         view.addSubview(collectionView)
-        
+//        contr?.delegate = self
         collectionView.dataSource =  self
+     
         collectionView.delegate = self
+        topView.viewIncome?.delegate = self
+        
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: CollectionViewCell.id)
         
         collectionView.register(HeaderCellCollectionViewCell.self, forSupplementaryViewOfKind: HeaderCellCollectionViewCell.kind, withReuseIdentifier: HeaderCellCollectionViewCell.id)
@@ -50,6 +68,53 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
             
         }
     }
+//    override func viewWillAppear(_ animated: Bool) {
+//        topView.textNameTotal.
+//    }
+//    func getsumIncome()  {
+//        topView.textTotal.reloadInputViews()
+//    }
+//    override func loadView() {
+//        super.loadView()
+//        topView.reloadInputViews()
+//    }
+    
+    func getsumIncome() {
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 5){
+//            self.topView.textNameIncome.text = String(self.topView.sumIncome)
+//        }
+       
+        MoneyCoreData.shared.fetchIncome()
+        topView.textNameIncome.reloadInputViews()
+    }
+    
+    func popoverDismissed() {
+        self.navigationController?.dismiss(animated: true)
+       
+            collectionView.reloadData()
+        topView.gotSum()
+        print(topView.sumIncome)
+//        topView.createText()
+//        topView.popoverDismissed()
+//        getsumIncome()
+//        MoneyCoreData.shared.fetchIncome()
+//        MoneyCoreData.shared.updatecontext()
+    
+    }
+    
+//    func presentModal() {
+//        let vc = AddController()
+//        vc.delegate = self
+//        present(vc, animated: true)
+//    }
+//    
+//    func reloudCollection(controller: UIViewController) {
+//        MoneyCoreData.shared.fetchSpanding()
+//        MoneyCoreData.shared.fetchIncome()
+//        collectionView.reloadData()
+//        topView.reloadInputViews()
+//    }
+  
     
     func createSectionLayout() -> NSCollectionLayoutSection {
         
@@ -119,17 +184,25 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+       print( MoneyCoreData.shared.spend.count)
+        
+        return MoneyCoreData.shared.spend.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         var cell = CollectionViewCell()
-        
-        if indexPath.section == 0 {
-            
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.id, for: indexPath) as! CollectionViewCell
+//        cell.image.image = UIImage(systemName: "trash")
+        cell.image.image = UIImage(systemName: MoneyCoreData.shared.spend[indexPath.row].image ?? "")
+       
+            cell.textName.text = MoneyCoreData.shared.spend[indexPath.row].name
+            cell.textTotal.text = String(MoneyCoreData.shared.spend[indexPath.row].totalSpend)
+        
+//            self.collectionView.reloadData()
             
-        }
+        
+//            collectionView.reloadItems(at: [indexPath])
+        
         
         return cell
     }

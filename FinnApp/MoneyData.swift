@@ -9,77 +9,193 @@ import Foundation
 import CoreData
 import UIKit
 
-class MoneyCoreData {
+class MoneyCoreData: NSObject {
     
-    private var appDelegate: AppDelegate {
-        UIApplication.shared.delegate as! AppDelegate
-    }
+    static let shared = MoneyCoreData()
+     
+    weak var controller: HomeViewController?
+    var arrayIcons = [Icons]()
+    var spend: [Spending]   = []
+//    = [] {
+//        didSet {
+//            DispatchQueue.main.async {
+//                self.controller?.collectionView.reloadData()
+//            }
+//        }
+//    }
     
-    private var context:NSManagedObjectContext  {
-     appDelegate.persistentContainer.viewContext
-    }
+    var income = [Income]()
+    
+    lazy var persistentContainer: NSPersistentContainer = {
+        let container = NSPersistentContainer(name: "FinnModel")
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = error as NSError? {
+                
+                fatalError("Unresolved error \(error), \(error.userInfo)")
+            }
+        })
+        return container
+    }()
+    override init(){}
     
     func saveContext () {
-        guard let entity = NSEntityDescription.entity(forEntityName: "Money", in: context) else {return}
-        let moneyObjeck = Money(entity: entity, insertInto: context)
-        if context.hasChanges {
+        let spendContext = persistentContainer.viewContext
+        if spendContext.hasChanges {
             do {
-                try context.save()
+                try spendContext.save()
             } catch {
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
     }
+//MARK:// Spending
     
+  
     
-    func readContext() -> [Money] {
+    func createSpending(name:String,image:String?, totalSpend:Double, date:Date) {
+        guard let entityDescription = NSEntityDescription.entity(forEntityName: "Spending", in: persistentContainer.viewContext) else {return}
         
-        let fetchRequest = Money.fetchRequest()
+        let spending = Spending(entity:entityDescription, insertInto: persistentContainer.viewContext)
+        spending.image = image
+        spending.date = date
+        spending.totalSpend = totalSpend
+        spending.name = name
         
         do {
-           return try context.fetch(fetchRequest)
+            try persistentContainer.viewContext.save()
+            spend.append(spending)
         }
         catch {
             print(error.localizedDescription)
         }
-        return []
-        
     }
-    
-    func createContext(name: String, spending: Double) {
-        let money = Money(context: context)
-        money.nameSpending = name
-        money.spendig = spending
+    func fetchSpanding() {
+        let context = persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Spending")
         
         do {
-            try context.save()
+            spend = try! context.fetch(fetchRequest) as! [Spending]
+     
+           
+        }
+    }
+    
+    //MARK:// Image
+    
+    func createImage(image:String){
+        guard let entityDescription = NSEntityDescription.entity(forEntityName: "Icons", in: persistentContainer.viewContext) else {return}
+         let icon = Icons(entity:entityDescription, insertInto: persistentContainer.viewContext)
+        icon.image = image
+//        arrayIcons.append(icon)
+        fetchIcon()
+        do {
+            
+            try persistentContainer.viewContext.save()
         }
         catch {
-         print(error.localizedDescription)
+            print(error.localizedDescription)
+        }
+    }
+    
+    func fetchIcon(){
+        let context = persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Icons")
+       
+        do {
+             arrayIcons = try! context.fetch(fetchRequest) as! [Icons]
+        }
+    }
+    
+//MARK:// INCOME
+    
+    func createContextIncome(incomeSum:Double, date:Date) {
+        guard let entityDescription = NSEntityDescription.entity(forEntityName: "Income", in: persistentContainer.viewContext) else {return}
+        
+        let income = Income(entity:entityDescription, insertInto: persistentContainer.viewContext)
+        income.incomeDate = date
+        income.incomeSum = incomeSum
+        
+        do {
+            try persistentContainer.viewContext.save()
+        }
+        catch {
+            print(error.localizedDescription)
+        }
+    }
+    
+    func fetchIncome(){
+        let context = persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Income")
+       
+        do {
+             income = try! context.fetch(fetchRequest) as! [Income]
+            
+        }
+    }
+    
+    func deleteIncome() {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Income")
+        
+        do {
+            let income = try? persistentContainer.viewContext.fetch(fetchRequest) as? [Income]
+            income?.forEach { persistentContainer.viewContext.delete($0)}
+            
+            try persistentContainer.viewContext.save()
+        }
+        
+        catch{
+            print(error.localizedDescription)
         }
     }
     
     func updatecontext(){
         
         do{
-            try context.save()
+            try persistentContainer.viewContext.save()
         }
         catch{
             print(error.localizedDescription)
         }
     }
     
-    func deleteContext(money:Money) {
+    func deleteContext() {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Spending")
         
-       context.delete(money)
         do {
-            try context.save()
+            let spends = try? persistentContainer.viewContext.fetch(fetchRequest) as? [Spending]
+            spends?.forEach { persistentContainer.viewContext.delete($0)}
+            
+            try persistentContainer.viewContext.save()
         }
-        catch {
+        
+        catch{
             print(error.localizedDescription)
         }
     }
     
+    func deleteContextIcons() {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Icons")
+        
+        do {
+            let icons = try? persistentContainer.viewContext.fetch(fetchRequest) as? [Icons]
+            icons?.forEach { persistentContainer.viewContext.delete($0)}
+            
+            try persistentContainer.viewContext.save()
+        }
+        
+        catch{
+            print(error.localizedDescription)
+        }
+    }
     
+    func logpath(){
+        var app = UIApplication.shared.delegate  as! AppDelegate
+        if let url = persistentContainer.persistentStoreCoordinator.persistentStores.first?.url{
+            print("DB url - \(url)")
+        }
+    }
 }

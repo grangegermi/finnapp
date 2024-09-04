@@ -8,137 +8,240 @@
 import UIKit
 import SnapKit
 
-class AddController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UICollectionViewDelegate, UICollectionViewDataSource, UITextFieldDelegate {
+//protocol HomeDelegate:AnyObject {
+//    
+//    func reloudCollection(controller:UIViewController)
+//}
 
-    var picker = UIPickerView()
-    var textField = UITextField()
-    var dateText = UITextField()
-    lazy var collectionView: UICollectionView = UICollectionView(
-        frame: .zero,
-        collectionViewLayout: UICollectionViewCompositionalLayout { sectionIndex, _ -> NSCollectionLayoutSection? in
-            return  self.createLayout()
+protocol TopViewDelegate: AnyObject {
+    func getsumIncome() 
+}
+
+protocol ModalTransitionListener {
+    func popoverDismissed()
+}
+
+class ModalTransitionMediator {
+    /* Singleton */
+    class var instance: ModalTransitionMediator {
+        struct Static {
+            static let instance: ModalTransitionMediator = ModalTransitionMediator()
         }
-    )
-    var dateTracker = UIDatePicker()
+        return Static.instance
+    }
+
+private var listener: ModalTransitionListener?
+
+private init() {
+
+}
+
+func setListener(listener: ModalTransitionListener) {
+    self.listener = listener
+}
+
+func sendPopoverDismissed(modelChanged: Bool) {
+    listener?.popoverDismissed()
+}
+}
+
+class AddController: UIViewController, UIGestureRecognizerDelegate  {
+ 
+    
+    weak var delegate:TopViewDelegate?
+ 
+    var model = Model()
+    var segment = UISegmentedControl()
+    var income = IncomeView()
+    var spending = SpendView()
+    var array = ["Доход", "Расход"]
+    var viewScreen  = UIView()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(MoneyCoreData.shared.logpath())
+        
+        model.viewController = self
+        segment = UISegmentedControl(items: array)
+        
+        
         view.backgroundColor = .lightGray
-        view.addSubview(picker)
-//        view.addSubview(textField)
-        view.addSubview(collectionView)
-        view.addSubview(dateTracker)
-        view.addSubview(dateText)
-        picker.delegate = self
-        picker.dataSource = self
-        collectionView.delegate = self
-        collectionView.dataSource = self
-        textField.delegate = self
+        view.addSubview(viewScreen)
+        view.addSubview(segment)
+        viewScreen.backgroundColor = .orange
         
-        picker.snp.makeConstraints { make in
+        
+        viewScreen.addSubview(spending)
+        spending.backgroundColor = .magenta
+        
+        viewScreen.addSubview(income)
+        income.backgroundColor = .yellow
+        self.navigationItem.leftBarButtonItem?.isHidden = true
+        //        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "back", style: .done, target: self, action: #selector(done))
+        //        let nav = UINavigationBar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 100))
+        //        view.addSubview(nav)
+        
+        let vchome = HomeViewController()
+        let navbutton = UIBarButtonItem(title: "back", image: nil, primaryAction: .init(handler: {_ in
+            
+            if let sheet = UINavigationController(rootViewController: vchome).sheetPresentationController{
+                sheet.animateChanges {
+                    sheet.selectedDetentIdentifier = .medium
+                }
+            }
+        }))
+        navigationItem.leftBarButtonItem = navbutton
+        
+      
+        
+        //        navigationItem.leftBarButtonItem = navbutton
+        //        navigationController?.navigationBar.setItems([navigationItem], animated: false)
+        
+        //        navigationController?.navigationBar.topItem?.rightBarButtonItem?.title = "Назад"
+        
+        //                                        menu: model.addArray()
+        
+        segment.backgroundColor = .yellow
+        segment.selectedSegmentTintColor = .white
+        segment.selectedSegmentIndex = 0
+        segment.addTarget(self, action: #selector(goToScreen), for: .valueChanged)
+        
+        
+        
+        segment.snp.makeConstraints { make in
             make.top.equalTo(view.snp.top).inset(20)
-            make.left.equalTo(view.snp.left).inset(40)
-            make.right.equalTo(view.snp.right).inset(40)
-//            make.bottom.equalTo(collectionView.snp.top).inset(20)
-            make.height.equalTo(view.snp.height).multipliedBy(0.1)
-
-        }
-        
-//        textField.snp.makeConstraints { make in
-//            make.top.equalTo(picker.snp.bottom).inset(100)
-//            make.height.equalTo(view.snp.height).multipliedBy(0.1)
-////            make.width.equalTo(view.snp.width).multipliedBy(0.9)
-//            make.right.equalTo(view.snp.right)
-//            make.left.equalTo(view.snp.left)
-//        }
-        
-        dateText.snp.makeConstraints { make in
-            make.top.equalTo(collectionView.snp.bottom).inset(textField.bounds.height)
-            make.height.equalTo(30)
             make.width.equalTo(view.snp.width).multipliedBy(0.9)
-        }
-        dateText.text = "fff"
-        dateText.borderStyle = .bezel
-        dateText.textColor = .black
-        dateText.inputView = dateTracker
-        
-        dateTracker.datePickerMode = .date
-        dateTracker.preferredDatePickerStyle = .wheels
-        picker.backgroundColor = .yellow
-        textField.borderStyle = .line
-        collectionView.register(Cell.self, forCellWithReuseIdentifier: Cell.id)
-        
-        collectionView.snp.makeConstraints { make in
-            make.top.equalTo(view.snp.top).inset(100)
-            make.left.equalTo(view.snp.left)
-            make.right.equalTo(view.snp.right)
-            make.height.equalTo(view.snp.height).multipliedBy(0.4)
+            make.height.equalTo(view.snp.height).multipliedBy(0.1/2)
+            make.left.right.equalToSuperview().offset(20)
+            make.right.equalToSuperview().offset(-20)
         }
         
-        dateTracker.snp.makeConstraints { make in
-            make.top.equalTo(dateText.snp.bottom).inset(textField.bounds.height)
-            make.height.equalTo(view.snp.height).multipliedBy(0.3)
-            make.width.equalTo(view.snp.width).multipliedBy(0.7)
-            make.right.equalTo(view.snp.right).inset(40)
-            make.left.equalTo(view.snp.left).inset(40)
+        viewScreen.snp.makeConstraints { make in
+            make.top.equalTo(view.snp.top).offset(50)
+            make.bottom.equalTo(view.snp.bottom)
+            make.left.right.equalToSuperview()
+            make.right.equalToSuperview()
+            
+        }
+        
+        income.snp.makeConstraints { make in
+            make.top.equalTo(viewScreen.snp.top)
+            make.bottom.equalTo(viewScreen.snp.bottom)
+            make.left.equalTo(viewScreen.snp.left)
+            make.right.equalTo(viewScreen.snp.right)
+        }
+        
+        spending.snp.makeConstraints { make in
+            make.top.equalTo(viewScreen.snp.top)
+            make.bottom.equalTo(viewScreen.snp.bottom)
+            make.left.equalTo(viewScreen.snp.left)
+            make.right.equalTo(viewScreen.snp.right)
         }
         
         
+        
+        
+        //        let direction = UISwipeGestureRecognizer.Direction.down
+        ////        let gesture = UISwipeGestureRecognizer(target: self, action: #selector(swipe))
+        //        gesture.direction = direction
+        //        gesture.delegate = self
+        //        view.addGestureRecognizer(gesture)
     }
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 2
-    }
+    //    func dismiss(animated: Bool){
+    //        let vcHome = HomeViewController()
+    //                vcHome.collectionView.reloadData()
+    //
+    //    }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return 1
-    }
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        
-        return "Hello"
-        
-    }
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-    }
+    //    override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+    //        let vcHome = HomeViewController()
+    //        vcHome.collectionView.reloadData()
+    //    }
     
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        return 20
-    }
+    //    @objc func done(){
+    //        print("back")
+    //        let vc = HomeViewController()
+    //        vc.collectionView.reloadData()
+    //        self.navigationController?.popViewController(animated: true)
+    //    }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    //    @objc func swipe(){
+    //        print("hello")
+    //        let vc = HomeViewController()
+    //        vc.collectionView.reloadData()
+    //    }
+    
+    
+    //    override func viewDidDisappear(_ animated: Bool) {
+    //        super.viewDidDisappear(true)
+    //        let vc = HomeViewController()
+    //        delegate?.reloudCollection(controller: self)
+    //
+    //        navigationController?.pushViewController(vc, animated: true)
+    //
+    //        vc.collectionView.reloadData()
+    //        vc.reloadInputViews()
+    //        vc.viewDidLayoutSubviews()
+    //    }
+    
+    
+    
+    @objc func goToScreen() {
         
-        var cell = Cell()
-        
-        if indexPath.section == 0 {
-            cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cell.id, for: indexPath) as! Cell
-            cell.imageOne.image = UIImage(systemName: "paperplane.fill")
+        if  segment.selectedSegmentIndex == 0 {
+            spending.isHidden = true
+            income.isHidden = false
+            //            income.alpha = 1
+            //            spending.alpha = 0
+            //            income.backgroundColor = .magenta
+            
+            
+            
+        } else {
+            //            income.alpha = 0
+            //            spending.alpha = 1
+            //            income.backgroundColor = .green
+            income.isHidden = true
+            spending.isHidden = false
+            
+            
         }
-        return cell
+        
     }
     
-    func createLayout() -> NSCollectionLayoutSection {
+//    func getsumIncome(sum: Double) {
+//        delegate?.getsumIncome(sum: sum)
+//    }
+//    
+    //    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+    //            return true
+    //        }
+    //
+    //        func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRequireFailureOf otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    //            return false
+    //        }
+    //
+    //        func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    //            return true
+    //        }
+    //
+    //        func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    //            return true
+    //        }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         
-        let supplementaryViews = [
-            NSCollectionLayoutBoundarySupplementaryItem(
-                layoutSize: NSCollectionLayoutSize(
-                    widthDimension: .fractionalWidth(1),
-                    heightDimension: .absolute(50)
-                ),
-                elementKind: UICollectionView.elementKindSectionHeader,
-                alignment: .top
-            )
-        ]
-
-        let item = NSCollectionLayoutItem(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1)))
-        
-        let group = NSCollectionLayoutGroup.horizontal(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.2), heightDimension: .fractionalHeight(0.2)), repeatingSubitem: item, count: 6)
-        
-        let section = NSCollectionLayoutSection(group: group)
-        section.interGroupSpacing = 10
-        
-         return section
+        delegate?.getsumIncome()
+        MoneyCoreData.shared.fetchIncome()
+        ModalTransitionMediator.instance.sendPopoverDismissed(modelChanged: true)
+       
     }
+    
+   
 }
+    
+
