@@ -56,7 +56,6 @@ class SpendView: UIView, UICollectionViewDelegate, UICollectionViewDataSource, U
         dateText.textColor = .black
         dateText.backgroundColor = UIColor.white
         let currentDateTime = Date()
-//        formatter.dateStyle = .short
         formatter.dateFormat = "MM/dd/yyyy"
         dateText.inputView = dateTracker
         dateText.text = formatter.string(from: currentDateTime)
@@ -68,8 +67,6 @@ class SpendView: UIView, UICollectionViewDelegate, UICollectionViewDataSource, U
         button.setTitle("Save", for: .normal)
         button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(save), for: .touchUpInside)
-        
-        
         collectionView.register(Cell.self, forCellWithReuseIdentifier: Cell.id)
         
         nameSpend.snp.makeConstraints { make in
@@ -161,13 +158,9 @@ class SpendView: UIView, UICollectionViewDelegate, UICollectionViewDataSource, U
          }
          
          MoneyCoreData.shared.createSpending(name: nameSpend.text ?? "", image: someImage, totalSpend:doubleNum, date:  formatter.date(from: ddate)!)
-         
-        
-         
-        
+
      }
 
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return MoneyCoreData.shared.arrayIcons.count

@@ -63,6 +63,7 @@ class AddController: UIViewController, UIGestureRecognizerDelegate  {
         print(MoneyCoreData.shared.logpath())
         
         model.viewController = self
+        model.addArray()
         segment = UISegmentedControl(items: array)
         
         
@@ -77,30 +78,22 @@ class AddController: UIViewController, UIGestureRecognizerDelegate  {
         
         viewScreen.addSubview(income)
         income.backgroundColor = .yellow
-        self.navigationItem.leftBarButtonItem?.isHidden = true
+//        self.navigationItem.leftBarButtonItem?.isHidden = true
         //        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "back", style: .done, target: self, action: #selector(done))
         //        let nav = UINavigationBar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 100))
         //        view.addSubview(nav)
         
-        let vchome = HomeViewController()
-        let navbutton = UIBarButtonItem(title: "back", image: nil, primaryAction: .init(handler: {_ in
-            
-            if let sheet = UINavigationController(rootViewController: vchome).sheetPresentationController{
-                sheet.animateChanges {
-                    sheet.selectedDetentIdentifier = .medium
-                }
-            }
-        }))
-        navigationItem.leftBarButtonItem = navbutton
-        
-      
-        
-        //        navigationItem.leftBarButtonItem = navbutton
-        //        navigationController?.navigationBar.setItems([navigationItem], animated: false)
-        
-        //        navigationController?.navigationBar.topItem?.rightBarButtonItem?.title = "Назад"
-        
-        //                                        menu: model.addArray()
+//        let vchome = HomeViewController()
+//        let navbutton = UIBarButtonItem(title: "back", image: nil, primaryAction: .init(handler: {_ in
+//            
+//            if let sheet = UINavigationController(rootViewController: vchome).sheetPresentationController{
+//                sheet.animateChanges {
+//                    sheet.selectedDetentIdentifier = .medium
+//                }
+//            }
+//        }))
+//        navigationItem.leftBarButtonItem = navbutton
+   
         
         segment.backgroundColor = .yellow
         segment.selectedSegmentTintColor = .white
@@ -138,56 +131,7 @@ class AddController: UIViewController, UIGestureRecognizerDelegate  {
             make.left.equalTo(viewScreen.snp.left)
             make.right.equalTo(viewScreen.snp.right)
         }
-        
-        
-        
-        
-        //        let direction = UISwipeGestureRecognizer.Direction.down
-        ////        let gesture = UISwipeGestureRecognizer(target: self, action: #selector(swipe))
-        //        gesture.direction = direction
-        //        gesture.delegate = self
-        //        view.addGestureRecognizer(gesture)
     }
-    
-    //    func dismiss(animated: Bool){
-    //        let vcHome = HomeViewController()
-    //                vcHome.collectionView.reloadData()
-    //
-    //    }
-    
-    //    override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
-    //        let vcHome = HomeViewController()
-    //        vcHome.collectionView.reloadData()
-    //    }
-    
-    
-    //    @objc func done(){
-    //        print("back")
-    //        let vc = HomeViewController()
-    //        vc.collectionView.reloadData()
-    //        self.navigationController?.popViewController(animated: true)
-    //    }
-    
-    //    @objc func swipe(){
-    //        print("hello")
-    //        let vc = HomeViewController()
-    //        vc.collectionView.reloadData()
-    //    }
-    
-    
-    //    override func viewDidDisappear(_ animated: Bool) {
-    //        super.viewDidDisappear(true)
-    //        let vc = HomeViewController()
-    //        delegate?.reloudCollection(controller: self)
-    //
-    //        navigationController?.pushViewController(vc, animated: true)
-    //
-    //        vc.collectionView.reloadData()
-    //        vc.reloadInputViews()
-    //        vc.viewDidLayoutSubviews()
-    //    }
-    
-    
     
     @objc func goToScreen() {
         
@@ -212,31 +156,13 @@ class AddController: UIViewController, UIGestureRecognizerDelegate  {
         
     }
     
-//    func getsumIncome(sum: Double) {
-//        delegate?.getsumIncome(sum: sum)
-//    }
-//    
-    //    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
-    //            return true
-    //        }
-    //
-    //        func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRequireFailureOf otherGestureRecognizer: UIGestureRecognizer) -> Bool {
-    //            return false
-    //        }
-    //
-    //        func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
-    //            return true
-    //        }
-    //
-    //        func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
-    //            return true
-    //        }
-    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         delegate?.getsumIncome()
+
         MoneyCoreData.shared.fetchIncome()
+        MoneyCoreData.shared.fetchSpanding()
         ModalTransitionMediator.instance.sendPopoverDismissed(modelChanged: true)
        
     }

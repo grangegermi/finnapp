@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let viewController = ViewController()
         let navViewController = UINavigationController(rootViewController: viewController)
+        navViewController.navigationBar.isHidden = true
         window?.rootViewController = navViewController
 //        navViewController.modalPresentationStyle = .pageSheet
     }

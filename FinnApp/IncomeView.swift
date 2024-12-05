@@ -9,9 +9,7 @@ import UIKit
 import SnapKit
 
 class IncomeView: UIView, UITextFieldDelegate {
-  
-    
-   
+
     var datePicker = UIDatePicker()
     var sumText = UITextField()
     var dateText = UITextField()
@@ -21,7 +19,6 @@ class IncomeView: UIView, UITextFieldDelegate {
     override init(frame:CGRect) {
         super.init(frame: frame)
         
-      
         self.addSubview(sumText)
         self.addSubview(dateText)
         self.addSubview(buttonSave)
@@ -30,14 +27,23 @@ class IncomeView: UIView, UITextFieldDelegate {
         sumText.placeholder = "Enter Sum"
         sumText.setLeftPaddingPoints(10)
     
-    
+        print(MoneyCoreData.shared.income)
         dateText.delegate = self
-        dateText.placeholder = "Choose the date"
+        
+        var currentDateTime = Date()
+        formatter.dateFormat = "MM/dd/yyyy"
+        
+        formatter.timeZone = TimeZone.current
+        
         dateText.setLeftPaddingPoints(10)
         dateText.inputView = datePicker
+        dateText.text = formatter.string(from: currentDateTime)
         
         datePicker.datePickerMode = .date
+        datePicker.date = Date()
+        datePicker.timeZone = TimeZone.current
         datePicker.preferredDatePickerStyle = .wheels
+        print(Date.now)
         datePicker.addTarget(self, action: #selector(selectDate(datePicker:)), for: .valueChanged)
         
         createTextField()
@@ -49,13 +55,13 @@ class IncomeView: UIView, UITextFieldDelegate {
         buttonSave.addTarget(self, action: #selector(saveIncome), for: .touchUpInside)
         
     }
+    
     @objc func selectDate(datePicker: UIDatePicker) {
   
         formatter.dateFormat = "MM/dd/yyyy"
         dateText.text = formatter.string(from: datePicker.date)
       
     }
-   
     
     @objc func doneAction() {
         self.endEditing(true)
@@ -70,12 +76,18 @@ class IncomeView: UIView, UITextFieldDelegate {
         guard let someIncome = Double(sumText.text ?? "")  else {
             return
         }
-
-       
-
-        MoneyCoreData.shared.createContextIncome(incomeSum: Double(someIncome), date: formatter.date(from: someDate)!)
+        
+        formatter.dateFormat = "MM/dd/yyyy"
+        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        if let dateObj = formatter.date(from: someDate) {
+            MoneyCoreData.shared.createContextIncome(incomeSum: Double(someIncome), date: dateObj)
+            print(dateObj)
+        }else{
+            print("no")
+        }
         
     }
+    
     func toolBar() {
          let tool = UIToolbar()
         tool.sizeToFit()

@@ -10,8 +10,6 @@ import SnapKit
 
 class ViewController: UITabBarController {
     
-    
-    
     let  homeVC = UINavigationController(rootViewController: HomeViewController())
     let  historyVC = UINavigationController(rootViewController: HistoryController())
     let  settingsVC = UINavigationController(rootViewController: SettingsController())
@@ -24,6 +22,8 @@ class ViewController: UITabBarController {
         
         setValue(customTabBar, forKey: "tabBar" )
         
+//        self.navigationController?.navigationBar.isHidden = true
+//        self.navigationController?.navigationBar
         homeVC.tabBarItem.image = UIImage(systemName: "house")
         historyVC.tabBarItem.image = UIImage(systemName: "doc.plaintext")
         settingsVC.tabBarItem.image = UIImage(systemName: "gearshape")

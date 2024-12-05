@@ -80,10 +80,6 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
 //    }
     
     func getsumIncome() {
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 5){
-//            self.topView.textNameIncome.text = String(self.topView.sumIncome)
-//        }
-       
         MoneyCoreData.shared.fetchIncome()
         topView.textNameIncome.reloadInputViews()
     }
@@ -93,7 +89,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
        
             collectionView.reloadData()
         topView.gotSum()
-        print(topView.sumIncome)
+//        print(topView.sumIncome)
 //        topView.createText()
 //        topView.popoverDismissed()
 //        getsumIncome()

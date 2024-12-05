@@ -3,5 +3,6 @@ use_frameworks!
 target 'FinnApp' do
 
     pod 'SnapKit', '~> 5.6.0'
+ pod 'Charts'
 
 end

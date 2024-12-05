@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		223503172BEE0FCF009A2755 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223503162BEE0FCF009A2755 /* Base.swift */; };
+		224ACCCF2CDFA99B00EBCD16 /* IncomeCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224ACCCE2CDFA99B00EBCD16 /* IncomeCharts.swift */; };
+		224ACCD12CDFA9B700EBCD16 /* SpendCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224ACCD02CDFA9B700EBCD16 /* SpendCharts.swift */; };
 		225014A22BF15F7B007BD4A1 /* FinnModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 225014A02BF15F7B007BD4A1 /* FinnModel.xcdatamodeld */; };
 		225014A42BF24857007BD4A1 /* ModelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225014A32BF24857007BD4A1 /* ModelApp.swift */; };
 		225014A62BF8B77C007BD4A1 /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225014A52BF8B77C007BD4A1 /* IncomeView.swift */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		223503162BEE0FCF009A2755 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		224ACCCE2CDFA99B00EBCD16 /* IncomeCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCharts.swift; sourceTree = "<group>"; };
+		224ACCD02CDFA9B700EBCD16 /* SpendCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendCharts.swift; sourceTree = "<group>"; };
 		225014A12BF15F7B007BD4A1 /* FinnModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinnModel.xcdatamodel; sourceTree = "<group>"; };
 		225014A32BF24857007BD4A1 /* ModelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApp.swift; sourceTree = "<group>"; };
 		225014A52BF8B77C007BD4A1 /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				DB19A0312B7BEBF2006B44B9 /* AppDelegate.swift */,
 				DB19A0332B7BEBF2006B44B9 /* SceneDelegate.swift */,
 				DB19A0352B7BEBF2006B44B9 /* ViewController.swift */,
+				224ACCCE2CDFA99B00EBCD16 /* IncomeCharts.swift */,
+				224ACCD02CDFA9B700EBCD16 /* SpendCharts.swift */,
 				DBB3EB3A2B8BBE720020C59A /* HomeViewController.swift */,
 				DBBD8AE22BC8273200868858 /* CustomTabBar.swift */,
 				DBBD8ADC2BC1E1ED00868858 /* ReportViewController.swift */,
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224ACCCF2CDFA99B00EBCD16 /* IncomeCharts.swift in Sources */,
 				DB0FA5692BBF39CF009D5248 /* HistoryController.swift in Sources */,
 				DBBD8ADD2BC1E1ED00868858 /* ReportViewController.swift in Sources */,
 				DBBD8AE32BC8273200868858 /* CustomTabBar.swift in Sources */,
@@ -275,6 +282,7 @@
 				225014A82BF8B79C007BD4A1 /* SpendView.swift in Sources */,
 				DB524E692BB0931000AE49E3 /* TopView.swift in Sources */,
 				225014A22BF15F7B007BD4A1 /* FinnModel.xcdatamodeld in Sources */,
+				224ACCD12CDFA9B700EBCD16 /* SpendCharts.swift in Sources */,
 				DB19A0342B7BEBF2006B44B9 /* SceneDelegate.swift in Sources */,
 				225014A62BF8B77C007BD4A1 /* IncomeView.swift in Sources */,
 			);
